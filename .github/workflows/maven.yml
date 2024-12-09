@@ -12,9 +12,9 @@ on:
   schedule:
     - cron: 30 03 * * *
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master " ]
 
 jobs:
   build:
@@ -48,24 +48,7 @@ jobs:
           path: report.html
 
       - name: Test Execution Status
-        if: always()
+
         run: echo "Test Execution Completed"
 
-      - name: Copy report to gh.actions.pages folder
-        if: always()
-        run: |
-          echo "Creating the 'public/extent-reports-githubActions' directory..."
-          mkdir -p public/extent-reports-githubActions
-          echo "Copying report.html to the folder..."
-          cp report.html public/extent-reports-githubActions/
-          echo "Listing contents of the folder to verify the copy..."
-          ls -l public/extent-reports-githubActions
-          
-      - name: Deploy to GitHub Actions Pages
-        if: always()
-        uses: JamesIves/github-pages-deploy-action@v4.7.1
-        with:
-          folder: public/extent-reports-githubActions
-          token: ${{ secrets.PersonalAccessToken }}
-          clean: true
         
