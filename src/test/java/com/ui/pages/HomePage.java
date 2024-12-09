@@ -25,7 +25,7 @@ public HomePage(Browser browserName, boolean isHeadless) {
 	//	goToWebsite(JSONUtility.readJson(QA).getMAX_TRY()); //reading data from the json file
 	}
 public HomePage(WebDriver driver) {
-	super(driver);
+	super(driver);//
 	 goToWebsite(readProperty(DEV, "URL"));
 }
 
