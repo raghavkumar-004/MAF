@@ -109,6 +109,7 @@ public abstract class BrowserUtility {
 	public void goToWebsite(String url) {
 		logger.info("visiting the website "+ url);
 		driver.get().get(url);
+
 	}
 	public void maximizeWindow() {
 		logger.info("Mazimizing the browser window");

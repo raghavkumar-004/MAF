@@ -22,9 +22,10 @@ public class CSVReaderUtility {
 
 		csvReader.readNext(); // read next will give the first line value and if the value is present in the
 								// second line then again we need to do read next again
+		User userData;
 		List<User> userList = new ArrayList<User>();
 		while ((line = csvReader.readNext()) != null) {
-			User userData = new User(line[0], line[1]);
+			 userData = new User(line[0], line[1]);
 			userList.add(userData);
 		}
 

@@ -28,7 +28,7 @@ public class ExcelReaderUtility {
 		File file= new File(System.getProperty("user.dir")+"//testData//"+ fileName+ ".xlsx");
 		XSSFWorkbook xssFWorkbook= new XSSFWorkbook(file);
 		XSSFSheet xssFSheet= xssFWorkbook.getSheet("LoginTestData");
-		Iterator<Row> rowIterator=xssFSheet.iterator();
+		Iterator<Row> rowIterator=xssFSheet.iterator();//with the help of iterator we can read the entire sheet
 		rowIterator.next();//point to the first ROW
 		List<User> userList= new ArrayList<User>();
 		

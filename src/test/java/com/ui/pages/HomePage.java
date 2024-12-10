@@ -22,8 +22,8 @@ public HomePage(Browser browserName, boolean isHeadless) {
 	
 		super(browserName,isHeadless);//call parent class constructor
 	 //   goToWebsite(readProperty(DEV, "URL"));//reading data from the property file
-	    	goToWebsite(JSONUtility.readJson(QA).getUrl()); //reading data from the json file
-	       maximizeWindow();
+	      goToWebsite(JSONUtility.readJson(QA).getUrl()); //reading data from the json file
+	      maximizeWindow();
 	}
 public HomePage(WebDriver driver) {
 	super(driver);//
@@ -35,7 +35,7 @@ public HomePage(WebDriver driver) {
  * Rule for page class
  * 1. It should store the variable type locators
  * 2. Locators are constants because we are not going to change the value so we need to declare constant with Final keyword
- * 3. In java it is rule to add static keyword for constants and we call this as class variable because static variable are class variable
+ * 3. In Java it is rule to add static keyword for constants and we call this as class variable because static variable are class variable
  * 4. Constant name should be in upper case
  * 5. child class need to declare with final keyword
  * 6. abstract class can have constructor and that constructor is called in the child class because we cannot create instance of abstract class.
