@@ -3,6 +3,7 @@ package com.utility;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.time.Clock;
 
 import org.testng.annotations.Test;
 
@@ -13,7 +14,7 @@ import com.ui.pojo.Environment;
 
 public class JSONUtility {
 
-	
+
 	public static Environment readJson(Env env)  {
 		
 		File file= new File(System.getProperty("user.dir")+"\\config\\config.json");
@@ -26,7 +27,7 @@ public class JSONUtility {
 		}
 		Gson gson= new Gson();//Gson is a Java library that can be used to convert Java Objects into their JSON representation. It can also be used to convert a JSON string to an equivalent Java object. -->
 		Config config= gson.fromJson(fileReader, Config.class); // It will  give the config class object
-		Environment environment= config.getEnvironments().get("QA");
+		Environment environment= config.getEnvironments().get(env.toString().toUpperCase());//in the get method we are get the env from the Enum and convert it into the string with uppercase
 		return environment;
 	}
 }

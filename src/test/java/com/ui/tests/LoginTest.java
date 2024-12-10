@@ -29,18 +29,18 @@ public class LoginTest extends BaseTest{
 	/* DataProvider
 	 * if dataProvider method is outside the class then you need to give the complete class name in the test with Package name 
 	 */
-//	@Test(description="verify login with valid user", dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "loginTestDataProvider")
-//	public void loginTest(User user) {
-//		
-//		assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmail(), user.getPassword()).getUserName(), "Raghav Kumar");
-//}
-//	
-//
-//	@Test(description="verify login with valid user", dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "loginTestCSVDataProvider")
-//	public void loginCSVTest(User user) {
-//		
-//		assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmail(), user.getPassword()).getUserName(), "Raghav Kumar");
-//}
+	@Test(description="verify login with valid user", dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "loginTestDataProvider")
+	public void loginTest(User user) {
+
+		assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmail(), user.getPassword()).getUserName(), "Raghav Kumar");
+}
+
+
+	@Test(description="verify login with valid user", dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "loginTestCSVDataProvider")
+	public void loginCSVTest(User user) {
+
+		assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmail(), user.getPassword()).getUserName(), "Raghav Kumar");
+}
 	
 	
 

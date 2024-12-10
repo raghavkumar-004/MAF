@@ -21,9 +21,9 @@ public final class HomePage extends BrowserUtility {
 public HomePage(Browser browserName, boolean isHeadless) {
 	
 		super(browserName,isHeadless);//call parent class constructor
-	    goToWebsite(readProperty(DEV, "URL"));//reading data from the property file
-		maximizeWindow();
-	//	goToWebsite(JSONUtility.readJson(QA).getMAX_TRY()); //reading data from the json file
+	 //   goToWebsite(readProperty(DEV, "URL"));//reading data from the property file
+	    	goToWebsite(JSONUtility.readJson(QA).getUrl()); //reading data from the json file
+	       maximizeWindow();
 	}
 public HomePage(WebDriver driver) {
 	super(driver);//

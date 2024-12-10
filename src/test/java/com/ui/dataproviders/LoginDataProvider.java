@@ -36,7 +36,7 @@ public class LoginDataProvider {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		TestData testData= gson.fromJson(fileReader, TestData.class); //map the file reader to a java class
+		TestData testData= gson.fromJson(fileReader, TestData.class); //Deserialization(converting json object to java) map the file reader to a java class
 		
 		
 		List<Object[]> dataToReturn= new ArrayList<Object[]>();
