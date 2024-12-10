@@ -22,11 +22,13 @@ public HomePage(Browser browserName, boolean isHeadless) {
 	
 		super(browserName,isHeadless);//call parent class constructor
 	    goToWebsite(readProperty(DEV, "URL"));//reading data from the property file
+		maximizeWindow();
 	//	goToWebsite(JSONUtility.readJson(QA).getMAX_TRY()); //reading data from the json file
 	}
 public HomePage(WebDriver driver) {
 	super(driver);//
 	 goToWebsite(readProperty(DEV, "URL"));
+	 maximizeWindow();
 }
 
 /*
