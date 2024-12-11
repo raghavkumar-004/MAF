@@ -2,11 +2,11 @@
    "environments":{
       "DEV":{
          "url":"http://www.automationpractice.pl/index.php",
-		 "MAX_TRY":3
+		 "MAX_TRY":1
       },
       "QA":{
          "url":"http://www.automationpractice.pl/index.php",
-		 "MAX_TRY":3
+		 "MAX_TRY":1
       }
    }
 }

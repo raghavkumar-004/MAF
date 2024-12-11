@@ -1,197 +1,43 @@
-2024-12-10 18:06:29 [main] INFO com.ui.listeners.TestListener Test Suite Started 
-2024-12-10 18:06:30 [main] INFO com.ui.tests.LoginTest load the homepage of the website 
-2024-12-10 18:06:30 [main] INFO com.ui.pages.HomePage launching browser 
-2024-12-10 18:06:32 [main] INFO com.ui.pages.HomePage visiting the website http://www.automationpractice.pl/index.php 
-2024-12-10 18:06:41 [main] INFO com.ui.pages.HomePage Mazimizing the browser window 
-2024-12-10 18:06:41 [main] INFO com.ui.listeners.TestListener loginCSVTest 
-2024-12-10 18:06:41 [main] INFO com.ui.listeners.TestListener verify login with valid user 
-2024-12-10 18:06:41 [main] INFO com.ui.listeners.TestListener [] 
-2024-12-10 18:06:41 [main] INFO com.ui.pages.HomePage trying to perform click operation on the sign in link to go to sign in page 
-2024-12-10 18:06:41 [main] INFO com.ui.pages.HomePage Finding the element with locatorBy.xpath: //a[contains(text(), 'Sign in')] 
-2024-12-10 18:06:41 [main] INFO com.ui.pages.HomePage Element found and now performing click  
-2024-12-10 18:06:43 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: email 
-2024-12-10 18:06:43 [main] INFO com.ui.pages.LoginPage Element found and now enter text  test@yopmail.com 
-2024-12-10 18:06:43 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: passwd 
-2024-12-10 18:06:43 [main] INFO com.ui.pages.LoginPage Element found and now enter text  Testing@12345 
-2024-12-10 18:06:43 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: SubmitLogin 
-2024-12-10 18:06:43 [main] INFO com.ui.pages.LoginPage Element found and now performing click  
-2024-12-10 18:06:44 [main] INFO com.ui.pages.MyAccountPage Finding the element with locatorBy.xpath: //a[@class='account']/span 
-2024-12-10 18:06:44 [main] ERROR com.ui.listeners.TestListener loginCSVTest FAILED 
-2024-12-10 18:06:44 [main] ERROR com.ui.listeners.TestListener no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='account']/span"}
-  (Session info: chrome=131.0.6778.109)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [60f8a7f1df71538b90eb5e8151b9037c, findElement {using=xpath, value=//a[@class='account']/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\RAGHAV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64300}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64300/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 60f8a7f1df71538b90eb5e8151b9037c 
-2024-12-10 18:06:44 [main] INFO com.ui.listeners.TestListener Capturing screenshot for the Failed tests 
-2024-12-10 18:06:44 [main] INFO com.ui.listeners.TestListener Attaching  the screenshot to the HTML file 
-2024-12-10 18:06:45 [main] INFO com.ui.tests.LoginTest load the homepage of the website 
-2024-12-10 18:06:45 [main] INFO com.ui.pages.HomePage launching browser 
-2024-12-10 18:06:46 [main] INFO com.ui.pages.HomePage visiting the website http://www.automationpractice.pl/index.php 
-2024-12-10 18:06:56 [main] INFO com.ui.pages.HomePage Mazimizing the browser window 
-2024-12-10 18:06:56 [main] INFO com.ui.listeners.TestListener loginCSVTest 
-2024-12-10 18:06:56 [main] INFO com.ui.listeners.TestListener verify login with valid user 
-2024-12-10 18:06:56 [main] INFO com.ui.listeners.TestListener [] 
-2024-12-10 18:06:56 [main] INFO com.ui.pages.HomePage trying to perform click operation on the sign in link to go to sign in page 
-2024-12-10 18:06:56 [main] INFO com.ui.pages.HomePage Finding the element with locatorBy.xpath: //a[contains(text(), 'Sign in')] 
-2024-12-10 18:06:56 [main] INFO com.ui.pages.HomePage Element found and now performing click  
-2024-12-10 18:06:57 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: email 
-2024-12-10 18:06:57 [main] INFO com.ui.pages.LoginPage Element found and now enter text  raghav@yopmail.com 
-2024-12-10 18:06:57 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: passwd 
-2024-12-10 18:06:57 [main] INFO com.ui.pages.LoginPage Element found and now enter text  Testing@12345 
-2024-12-10 18:06:57 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: SubmitLogin 
-2024-12-10 18:06:58 [main] INFO com.ui.pages.LoginPage Element found and now performing click  
-2024-12-10 18:06:58 [main] INFO com.ui.pages.MyAccountPage Finding the element with locatorBy.xpath: //a[@class='account']/span 
-2024-12-10 18:06:58 [main] ERROR com.ui.listeners.TestListener loginCSVTest FAILED 
-2024-12-10 18:06:58 [main] ERROR com.ui.listeners.TestListener no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='account']/span"}
-  (Session info: chrome=131.0.6778.109)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0b4f6c96ddb76d41629a150a636fac2f, findElement {using=xpath, value=//a[@class='account']/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\RAGHAV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64327/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0b4f6c96ddb76d41629a150a636fac2f 
-2024-12-10 18:06:58 [main] INFO com.ui.listeners.TestListener Capturing screenshot for the Failed tests 
-2024-12-10 18:06:59 [main] INFO com.ui.listeners.TestListener Attaching  the screenshot to the HTML file 
-2024-12-10 18:07:00 [main] INFO com.ui.tests.LoginTest load the homepage of the website 
-2024-12-10 18:07:00 [main] INFO com.ui.pages.HomePage launching browser 
-2024-12-10 18:07:01 [main] INFO com.ui.pages.HomePage visiting the website http://www.automationpractice.pl/index.php 
-2024-12-10 18:07:11 [main] INFO com.ui.pages.HomePage Mazimizing the browser window 
-2024-12-10 18:07:11 [main] INFO com.ui.listeners.TestListener loginExcelTest 
-2024-12-10 18:07:11 [main] INFO com.ui.listeners.TestListener verify login with valid user 
-2024-12-10 18:07:11 [main] INFO com.ui.listeners.TestListener [] 
-2024-12-10 18:07:11 [main] INFO com.ui.pages.HomePage trying to perform click operation on the sign in link to go to sign in page 
-2024-12-10 18:07:11 [main] INFO com.ui.pages.HomePage Finding the element with locatorBy.xpath: //a[contains(text(), 'Sign in')] 
-2024-12-10 18:07:11 [main] INFO com.ui.pages.HomePage Element found and now performing click  
-2024-12-10 18:07:12 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: email 
-2024-12-10 18:07:12 [main] INFO com.ui.pages.LoginPage Element found and now enter text  bajoy99768@inikale.com 
-2024-12-10 18:07:12 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: passwd 
-2024-12-10 18:07:12 [main] INFO com.ui.pages.LoginPage Element found and now enter text  Pass123 
-2024-12-10 18:07:12 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: SubmitLogin 
-2024-12-10 18:07:12 [main] INFO com.ui.pages.LoginPage Element found and now performing click  
-2024-12-10 18:07:14 [main] INFO com.ui.pages.MyAccountPage Finding the element with locatorBy.xpath: //a[@class='account']/span 
-2024-12-10 18:07:14 [main] INFO com.ui.pages.MyAccountPage Element found and now return the visible valueAnkit Sharma 
-2024-12-10 18:07:14 [main] WARN com.ui.listeners.TestListener loginExcelTest SKIPPED 
-2024-12-10 18:07:14 [main] INFO com.ui.tests.LoginTest load the homepage of the website 
-2024-12-10 18:07:14 [main] INFO com.ui.pages.HomePage launching browser 
-2024-12-10 18:07:15 [main] INFO com.ui.pages.HomePage visiting the website http://www.automationpractice.pl/index.php 
-2024-12-10 18:07:23 [main] INFO com.ui.pages.HomePage Mazimizing the browser window 
-2024-12-10 18:07:23 [main] INFO com.ui.listeners.TestListener loginExcelTest 
-2024-12-10 18:07:23 [main] INFO com.ui.listeners.TestListener verify login with valid user 
-2024-12-10 18:07:23 [main] INFO com.ui.listeners.TestListener [] 
-2024-12-10 18:07:23 [main] INFO com.ui.pages.HomePage trying to perform click operation on the sign in link to go to sign in page 
-2024-12-10 18:07:23 [main] INFO com.ui.pages.HomePage Finding the element with locatorBy.xpath: //a[contains(text(), 'Sign in')] 
-2024-12-10 18:07:23 [main] INFO com.ui.pages.HomePage Element found and now performing click  
-2024-12-10 18:07:24 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: email 
-2024-12-10 18:07:24 [main] INFO com.ui.pages.LoginPage Element found and now enter text  bajoy99768@inikale.com 
-2024-12-10 18:07:24 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: passwd 
-2024-12-10 18:07:24 [main] INFO com.ui.pages.LoginPage Element found and now enter text  Pass123 
-2024-12-10 18:07:24 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: SubmitLogin 
-2024-12-10 18:07:25 [main] INFO com.ui.pages.LoginPage Element found and now performing click  
-2024-12-10 18:07:26 [main] INFO com.ui.pages.MyAccountPage Finding the element with locatorBy.xpath: //a[@class='account']/span 
-2024-12-10 18:07:26 [main] INFO com.ui.pages.MyAccountPage Element found and now return the visible valueAnkit Sharma 
-2024-12-10 18:07:26 [main] WARN com.ui.listeners.TestListener loginExcelTest SKIPPED 
-2024-12-10 18:07:26 [main] INFO com.ui.tests.LoginTest load the homepage of the website 
-2024-12-10 18:07:26 [main] INFO com.ui.pages.HomePage launching browser 
-2024-12-10 18:07:28 [main] INFO com.ui.pages.HomePage visiting the website http://www.automationpractice.pl/index.php 
-2024-12-10 18:07:40 [main] INFO com.ui.pages.HomePage Mazimizing the browser window 
-2024-12-10 18:07:40 [main] INFO com.ui.listeners.TestListener loginExcelTest 
-2024-12-10 18:07:40 [main] INFO com.ui.listeners.TestListener verify login with valid user 
-2024-12-10 18:07:40 [main] INFO com.ui.listeners.TestListener [] 
-2024-12-10 18:07:40 [main] INFO com.ui.pages.HomePage trying to perform click operation on the sign in link to go to sign in page 
-2024-12-10 18:07:40 [main] INFO com.ui.pages.HomePage Finding the element with locatorBy.xpath: //a[contains(text(), 'Sign in')] 
-2024-12-10 18:07:40 [main] INFO com.ui.pages.HomePage Element found and now performing click  
-2024-12-10 18:07:42 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: email 
-2024-12-10 18:07:42 [main] INFO com.ui.pages.LoginPage Element found and now enter text  bajoy99768@inikale.com 
-2024-12-10 18:07:42 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: passwd 
-2024-12-10 18:07:42 [main] INFO com.ui.pages.LoginPage Element found and now enter text  Pass123 
-2024-12-10 18:07:42 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: SubmitLogin 
-2024-12-10 18:07:42 [main] INFO com.ui.pages.LoginPage Element found and now performing click  
-2024-12-10 18:07:44 [main] INFO com.ui.pages.MyAccountPage Finding the element with locatorBy.xpath: //a[@class='account']/span 
-2024-12-10 18:07:44 [main] INFO com.ui.pages.MyAccountPage Element found and now return the visible valueAnkit Sharma 
-2024-12-10 18:07:44 [main] WARN com.ui.listeners.TestListener loginExcelTest SKIPPED 
-2024-12-10 18:07:44 [main] INFO com.ui.tests.LoginTest load the homepage of the website 
-2024-12-10 18:07:44 [main] INFO com.ui.pages.HomePage launching browser 
-2024-12-10 18:07:45 [main] INFO com.ui.pages.HomePage visiting the website http://www.automationpractice.pl/index.php 
-2024-12-10 18:08:10 [main] INFO com.ui.pages.HomePage Mazimizing the browser window 
-2024-12-10 18:08:10 [main] INFO com.ui.listeners.TestListener loginExcelTest 
-2024-12-10 18:08:10 [main] INFO com.ui.listeners.TestListener verify login with valid user 
-2024-12-10 18:08:10 [main] INFO com.ui.listeners.TestListener [] 
-2024-12-10 18:08:10 [main] INFO com.ui.pages.HomePage trying to perform click operation on the sign in link to go to sign in page 
-2024-12-10 18:08:10 [main] INFO com.ui.pages.HomePage Finding the element with locatorBy.xpath: //a[contains(text(), 'Sign in')] 
-2024-12-10 18:08:10 [main] INFO com.ui.pages.HomePage Element found and now performing click  
-2024-12-10 18:08:11 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: email 
-2024-12-10 18:08:11 [main] INFO com.ui.pages.LoginPage Element found and now enter text  bajoy99768@inikale.com 
-2024-12-10 18:08:11 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: passwd 
-2024-12-10 18:08:11 [main] INFO com.ui.pages.LoginPage Element found and now enter text  Pass123 
-2024-12-10 18:08:12 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: SubmitLogin 
-2024-12-10 18:08:12 [main] INFO com.ui.pages.LoginPage Element found and now performing click  
-2024-12-10 18:08:13 [main] INFO com.ui.pages.MyAccountPage Finding the element with locatorBy.xpath: //a[@class='account']/span 
-2024-12-10 18:08:13 [main] INFO com.ui.pages.MyAccountPage Element found and now return the visible valueAnkit Sharma 
-2024-12-10 18:08:13 [main] ERROR com.ui.listeners.TestListener loginExcelTest FAILED 
-2024-12-10 18:08:13 [main] ERROR com.ui.listeners.TestListener expected [Raghav Kumar] but found [Ankit Sharma] 
-2024-12-10 18:08:13 [main] INFO com.ui.listeners.TestListener Capturing screenshot for the Failed tests 
-2024-12-10 18:08:13 [main] INFO com.ui.listeners.TestListener Attaching  the screenshot to the HTML file 
-2024-12-10 18:08:14 [main] INFO com.ui.tests.LoginTest load the homepage of the website 
-2024-12-10 18:08:14 [main] INFO com.ui.pages.HomePage launching browser 
-2024-12-10 18:08:15 [main] INFO com.ui.pages.HomePage visiting the website http://www.automationpractice.pl/index.php 
-2024-12-10 18:08:24 [main] INFO com.ui.pages.HomePage Mazimizing the browser window 
-2024-12-10 18:08:24 [main] INFO com.ui.listeners.TestListener loginTest 
-2024-12-10 18:08:24 [main] INFO com.ui.listeners.TestListener verify login with valid user 
-2024-12-10 18:08:24 [main] INFO com.ui.listeners.TestListener [] 
-2024-12-10 18:08:24 [main] INFO com.ui.pages.HomePage trying to perform click operation on the sign in link to go to sign in page 
-2024-12-10 18:08:25 [main] INFO com.ui.pages.HomePage Finding the element with locatorBy.xpath: //a[contains(text(), 'Sign in')] 
-2024-12-10 18:08:25 [main] INFO com.ui.pages.HomePage Element found and now performing click  
-2024-12-10 18:08:26 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: email 
-2024-12-10 18:08:26 [main] INFO com.ui.pages.LoginPage Element found and now enter text  rk@yopmail.com 
-2024-12-10 18:08:26 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: passwd 
-2024-12-10 18:08:26 [main] INFO com.ui.pages.LoginPage Element found and now enter text  Testing@12345 
-2024-12-10 18:08:26 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: SubmitLogin 
-2024-12-10 18:08:26 [main] INFO com.ui.pages.LoginPage Element found and now performing click  
-2024-12-10 18:08:27 [main] INFO com.ui.pages.MyAccountPage Finding the element with locatorBy.xpath: //a[@class='account']/span 
-2024-12-10 18:08:27 [main] ERROR com.ui.listeners.TestListener loginTest FAILED 
-2024-12-10 18:08:27 [main] ERROR com.ui.listeners.TestListener no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='account']/span"}
-  (Session info: chrome=131.0.6778.109)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f4c3e0da6bded3e18fe7edf53bb44421, findElement {using=xpath, value=//a[@class='account']/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\RAGHAV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64510}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64510/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f4c3e0da6bded3e18fe7edf53bb44421 
-2024-12-10 18:08:27 [main] INFO com.ui.listeners.TestListener Capturing screenshot for the Failed tests 
-2024-12-10 18:08:27 [main] INFO com.ui.listeners.TestListener Attaching  the screenshot to the HTML file 
-2024-12-10 18:08:28 [main] INFO com.ui.tests.LoginTest load the homepage of the website 
-2024-12-10 18:08:28 [main] INFO com.ui.pages.HomePage launching browser 
-2024-12-10 18:08:29 [main] INFO com.ui.pages.HomePage visiting the website http://www.automationpractice.pl/index.php 
-2024-12-10 18:09:04 [main] INFO com.ui.pages.HomePage Mazimizing the browser window 
-2024-12-10 18:09:04 [main] INFO com.ui.listeners.TestListener loginTest 
-2024-12-10 18:09:04 [main] INFO com.ui.listeners.TestListener verify login with valid user 
-2024-12-10 18:09:04 [main] INFO com.ui.listeners.TestListener [] 
-2024-12-10 18:09:04 [main] INFO com.ui.pages.HomePage trying to perform click operation on the sign in link to go to sign in page 
-2024-12-10 18:09:04 [main] INFO com.ui.pages.HomePage Finding the element with locatorBy.xpath: //a[contains(text(), 'Sign in')] 
-2024-12-10 18:09:04 [main] INFO com.ui.pages.HomePage Element found and now performing click  
-2024-12-10 18:09:06 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: email 
-2024-12-10 18:09:06 [main] INFO com.ui.pages.LoginPage Element found and now enter text  rk@yopmail.com 
-2024-12-10 18:09:06 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: passwd 
-2024-12-10 18:09:06 [main] INFO com.ui.pages.LoginPage Element found and now enter text  Testing@12345 
-2024-12-10 18:09:06 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: SubmitLogin 
-2024-12-10 18:09:06 [main] INFO com.ui.pages.LoginPage Element found and now performing click  
-2024-12-10 18:09:07 [main] INFO com.ui.pages.MyAccountPage Finding the element with locatorBy.xpath: //a[@class='account']/span 
-2024-12-10 18:09:07 [main] ERROR com.ui.listeners.TestListener loginTest FAILED 
-2024-12-10 18:09:07 [main] ERROR com.ui.listeners.TestListener no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='account']/span"}
-  (Session info: chrome=131.0.6778.109)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a0f384de0b06a7d618797c57a3d59b84, findElement {using=xpath, value=//a[@class='account']/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\RAGHAV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64551/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a0f384de0b06a7d618797c57a3d59b84 
-2024-12-10 18:09:07 [main] INFO com.ui.listeners.TestListener Capturing screenshot for the Failed tests 
-2024-12-10 18:09:07 [main] INFO com.ui.listeners.TestListener Attaching  the screenshot to the HTML file 
-2024-12-10 18:09:08 [main] INFO com.ui.listeners.TestListener Test Suite Completed 
+2024-12-11 12:33:00 [main] INFO com.ui.listeners.TestListener Test Suite Started 
+2024-12-11 12:33:01 [main] INFO com.ui.tests.LoginTest load the homepage of the website 
+2024-12-11 12:33:01 [main] INFO com.ui.pages.HomePage launching browser 
+2024-12-11 12:33:03 [main] INFO com.ui.pages.HomePage visiting the website http://www.automationpractice.pl/index.php 
+2024-12-11 12:33:08 [main] INFO com.ui.pages.HomePage Mazimizing the browser window 
+2024-12-11 12:33:08 [main] INFO com.ui.listeners.TestListener loginExcelTest 
+2024-12-11 12:33:08 [main] INFO com.ui.listeners.TestListener verify login with valid user 
+2024-12-11 12:33:08 [main] INFO com.ui.listeners.TestListener [] 
+2024-12-11 12:33:08 [main] INFO com.ui.pages.HomePage trying to perform click operation on the sign in link to go to sign in page 
+2024-12-11 12:33:08 [main] INFO com.ui.pages.HomePage Finding the element with locatorBy.xpath: //a[contains(text(), 'Sign in')] 
+2024-12-11 12:33:08 [main] INFO com.ui.pages.HomePage Element found and now performing click  
+2024-12-11 12:33:09 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: email 
+2024-12-11 12:33:09 [main] INFO com.ui.pages.LoginPage Element found and now enter text  bajoy99768@inikale.com 
+2024-12-11 12:33:09 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: passwd 
+2024-12-11 12:33:09 [main] INFO com.ui.pages.LoginPage Element found and now enter text  Pass123 
+2024-12-11 12:33:09 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: SubmitLogin 
+2024-12-11 12:33:09 [main] INFO com.ui.pages.LoginPage Element found and now performing click  
+2024-12-11 12:33:10 [main] INFO com.ui.pages.MyAccountPage Finding the element with locatorBy.xpath: //a[@class='account']/span 
+2024-12-11 12:33:10 [main] INFO com.ui.pages.MyAccountPage Element found and now return the visible valueAnkit Sharma 
+2024-12-11 12:33:10 [main] WARN com.ui.listeners.TestListener loginExcelTest SKIPPED 
+2024-12-11 12:33:11 [main] INFO com.ui.tests.LoginTest load the homepage of the website 
+2024-12-11 12:33:11 [main] INFO com.ui.pages.HomePage launching browser 
+2024-12-11 12:33:11 [main] INFO com.ui.pages.HomePage visiting the website http://www.automationpractice.pl/index.php 
+2024-12-11 12:33:21 [main] INFO com.ui.pages.HomePage Mazimizing the browser window 
+2024-12-11 12:33:21 [main] INFO com.ui.listeners.TestListener loginExcelTest 
+2024-12-11 12:33:21 [main] INFO com.ui.listeners.TestListener verify login with valid user 
+2024-12-11 12:33:21 [main] INFO com.ui.listeners.TestListener [] 
+2024-12-11 12:33:21 [main] INFO com.ui.pages.HomePage trying to perform click operation on the sign in link to go to sign in page 
+2024-12-11 12:33:21 [main] INFO com.ui.pages.HomePage Finding the element with locatorBy.xpath: //a[contains(text(), 'Sign in')] 
+2024-12-11 12:33:21 [main] INFO com.ui.pages.HomePage Element found and now performing click  
+2024-12-11 12:33:22 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: email 
+2024-12-11 12:33:22 [main] INFO com.ui.pages.LoginPage Element found and now enter text  bajoy99768@inikale.com 
+2024-12-11 12:33:22 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: passwd 
+2024-12-11 12:33:22 [main] INFO com.ui.pages.LoginPage Element found and now enter text  Pass123 
+2024-12-11 12:33:23 [main] INFO com.ui.pages.LoginPage Finding the element with locatorBy.id: SubmitLogin 
+2024-12-11 12:33:23 [main] INFO com.ui.pages.LoginPage Element found and now performing click  
+2024-12-11 12:33:24 [main] INFO com.ui.pages.MyAccountPage Finding the element with locatorBy.xpath: //a[@class='account']/span 
+2024-12-11 12:33:24 [main] INFO com.ui.pages.MyAccountPage Element found and now return the visible valueAnkit Sharma 
+2024-12-11 12:33:24 [main] ERROR com.ui.listeners.TestListener loginExcelTest FAILED 
+2024-12-11 12:33:24 [main] ERROR com.ui.listeners.TestListener expected [Raghav Kumar] but found [Ankit Sharma] 
+2024-12-11 12:33:24 [main] INFO com.ui.listeners.TestListener Capturing screenshot for the Failed tests 
+2024-12-11 12:33:24 [main] INFO com.ui.listeners.TestListener Attaching  the screenshot to the HTML file 
+2024-12-11 12:33:24 [main] INFO com.ui.listeners.TestListener Test Suite Completed 

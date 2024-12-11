@@ -23,11 +23,11 @@ public class BaseTest {
 	
 	private boolean isLambdaTest;
 	
-	@Parameters({"browserName", "isLambdaTest", "isHeadless"})
+	@Parameters({"browser", "isLambdaTest", "isHeadless"})
 	@BeforeMethod(description ="load the homepage of the website")
 	public void setup(
-	@Optional("chrome")	String brownserName,
-	@Optional("false") boolean isLambdaTest, 
+	@Optional("chrome")	String browser,
+	@Optional("false") boolean isLambdaTest,
 	@Optional("false")boolean isHeadless,
 	ITestResult result)
 	{//Running the test in lambdaTest cloud
@@ -41,7 +41,7 @@ public class BaseTest {
 			//Running the test in local
 		logger.info("load the homepage of the website");
 		
-		 homePage= new HomePage(Browser.valueOf(brownserName.toUpperCase()),isHeadless); // we can use static import for enum by doing this we don't need to user Browser.chrome we can directly use Chrome; 
+		 homePage= new HomePage(Browser.valueOf(browser.toUpperCase()),isHeadless); // we can use static import for enum by doing this we don't need to user Browser.chrome we can directly use Chrome; 
 		}
 	}
 	
