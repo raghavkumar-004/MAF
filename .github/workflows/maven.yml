@@ -26,12 +26,12 @@ jobs:
       - name: Set up JDK 21
         uses: actions/setup-java@v4
         with:
-          java-version: '21'
+          java-version: '21.0.3'
           distribution: 'temurin'
           cache: maven
 
       - name: Running Test Automation Framework with Maven
-        run: mvn test -X -Dbrowser=CHROME -DisLambdaTest=true -DisHeadless=true
+        run: mvn test -X -Dbrowser=chrome -DisLambdaTest=true -DisHeadless=true
 
       - name: Upload Test logs
         if: always()
