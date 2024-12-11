@@ -26,7 +26,7 @@ public class BaseTest {
 	@Parameters({"browser", "isLambdaTest", "isHeadless"})
 	@BeforeMethod(description ="load the homepage of the website")
 	public void setup(
-	@Optional("chrome")	String browser,
+	@Optional("firefox")	String browser,
 	@Optional("false") boolean isLambdaTest,
 	@Optional("false")boolean isHeadless,
 	ITestResult result)
