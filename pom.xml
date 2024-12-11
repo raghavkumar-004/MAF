@@ -20,7 +20,7 @@
           <systemPropertyVariables>
            <browser>${browser}</browser>
             <isLambdaTest>${isLambdaTest}</isLambdaTest>
-            <isHeadLess>${isHeadLess}</isHeadLess>
+            <isHeadless>${isHeadless}</isHeadless>
           </systemPropertyVariables>
         </configuration>
       </plugin>
