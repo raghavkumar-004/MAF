@@ -34,14 +34,15 @@ public class BaseTest {
 		WebDriver lambdaTestDriver;
 		this.isLambdaTest=isLambdaTest;
 		if(isLambdaTest) {
-			lambdaTestDriver=LambdaTestUtility.initializeLambdaTestSession("chrome", result.getMethod().getMethodName()); //it will return remote driver
+			lambdaTestDriver=LambdaTestUtility.initializeLambdaTestSession(browser, result.getMethod().getMethodName()); //it will return remote driver
 			homePage= new HomePage(lambdaTestDriver);
 		}
 		else {
 			//Running the test in local
 		logger.info("load the homepage of the website");
 		
-		 homePage= new HomePage(Browser.valueOf(browser.toUpperCase()),isHeadless); // we can use static import for enum by doing this we don't need to user Browser.chrome we can directly use Chrome; 
+		 homePage= new HomePage(Browser.valueOf(browser.toUpperCase()),isHeadless); // we can use static import for enum by doing this we don't need to user Browser.chrome we can directly use Chrome;
+
 		}
 	}
 	
