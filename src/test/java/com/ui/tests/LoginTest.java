@@ -18,7 +18,7 @@ public class LoginTest extends BaseTest{
 	 * 1. Test should be small like 3,4 line maximum
 	 * 2. You cannot have conditional statements ,loop, try catch in your test
 	 * 3. Reduce the user of local variable
-	 * 4. Add at least one assertion in the test.
+	 * 4. Add at least one assertion in the test..
 	 */
 	
 	
