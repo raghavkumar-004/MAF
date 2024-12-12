@@ -143,9 +143,9 @@ public abstract class BrowserUtility {
 	Date date= new Date();
 	SimpleDateFormat format= new SimpleDateFormat("HH-mm-ss");
 	String timeStamp= format.format(date);
-	//String path = System.getProperty("user.dir") + "/screenshots/" + name + " - " + timeStamp + ".png";
-	//String path=System.getProperty("user.dir")+"//screenshots//" +name+" - "+timeStamp+".png";
-	String path =  "./screenshots/" + name + "  -  " + timeStamp + ".png";
+
+	//String path=System.getProperty("user.dir")+"//screenshots//" +name+" - "+timeStamp+".png";// this is absolute path
+	String path =  "./screenshots/" + name + "  -  " + timeStamp + ".png";//This is relative path
 	File sorce=ts.getScreenshotAs(OutputType.FILE);
 	File des= new File(path);
 	try {
