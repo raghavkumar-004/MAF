@@ -21,7 +21,7 @@ public class LoginTest extends BaseTest{
 	 * 4. Add at least one assertion in the test.
 	 */
 	
-	
+
 	/* DataProvider
 	 * if dataProvider method is outside the class then you need to give the complete class name in the test with Package name 
 	 */
@@ -32,14 +32,13 @@ public class LoginTest extends BaseTest{
 }
 
 
-//	@Test(description="verify login with valid user", dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "loginTestCSVDataProvider")
-//	public void loginCSVTest(User user) {
-//
-//		assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmail(), user.getPassword()).getUserName(), "Ankit Sharma");
-//}
-//
-//
-//
+	@Test(description="verify login with valid user", dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "loginTestCSVDataProvider")
+	public void loginCSVTest(User user) {
+
+		assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmail(), user.getPassword()).getUserName(), "Ankit Sharma");
+}
+
+
 //	@Test(description="verify login with valid user", dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "loginTestExcelDataProvider"
 //			, retryAnalyzer = com.ui.listeners.MyRetryAnalyzer.class
 //
