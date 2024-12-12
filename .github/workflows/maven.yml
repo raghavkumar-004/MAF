@@ -45,7 +45,7 @@ jobs:
         uses: actions/upload-artifact@v4.4.3
         with:
           name: html-report
-          path: report.html
+          path: Report.html
 
       - name: Test Execution Status
 
